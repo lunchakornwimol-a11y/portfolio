@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b1020">
+  <meta name="description" content="Lunchakorn Wimol — Computer Science Portfolio">
+  <title>Lunchakorn Wimol — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700;800&family=Noto+Sans+Thai:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="site-shell">
+    <header class="topbar">
+      <a class="brand" href="#home" aria-label="กลับไปหน้าแรก">
+        <span class="brand-mark">&lt;/&gt;</span>
+        <span><strong>Lunchakorn W.</strong><small>COMPUTER SCIENCE PORTFOLIO</small></span>
+      </a>
+      <nav class="desktop-nav" aria-label="Main navigation">
+        <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#activities">Activities</a><a href="#education">Education</a>
+      </nav>
+      <button class="theme-toggle" id="themeToggle" aria-label="สลับธีม" title="สลับธีม">◐</button>
+    </header>
+
+    <main>
+      <section class="hero section" id="home">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="status-dot"></span> OPEN TO LEARN · FUTURE CS STUDENT</div>
+          <p class="kicker">Hello, I'm</p>
+          <h1>Lunchakorn <span>Wimol</span><br><span class="thai-name">ลัญฉกร วิมล</span></h1>
+          <p class="hero-lead">Building ideas<br><em>through code.</em></p>
+          <p class="intro">ผมสนใจการพัฒนาซอฟต์แวร์ ปัญญาประดิษฐ์ และการสร้างเทคโนโลยีที่ช่วยแก้ปัญหาในชีวิตจริง</p>
+          <div class="topic-line"><span>Computer Science</span><i>/</i><span>Software Development</span><i>/</i><span>AI</span></div>
+          <div class="hero-actions">
+            <a class="button primary" href="#projects">Explore my projects <span>↗</span></a>
+            <a class="button secondary" href="#about">About me <span>↓</span></a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="visual-top"><span>PROFILE / 001</span><span class="live"><b></b> CURRENTLY LEARNING</span></div>
+          <div class="portrait-frame">
+            <div class="portrait-placeholder">
+              <span class="portrait-icon">＋</span>
+              <strong>YOUR PORTRAIT</strong>
+              <small>Replace with your photo</small>
+            </div>
+            <div class="portrait-stamp">CS<br><span>’27</span></div>
+          </div>
+          <div class="terminal">
+            <div class="terminal-head"><span class="window-dots"><i></i><i></i><i></i></span><span>about_me.py</span><span>•••</span></div>
+            <pre><code><span class="code-purple">class</span> <span class="code-cyan">Developer</span>:
+  focus = [
+    <span class="code-green">"Computer Science"</span>,
+    <span class="code-green">"Artificial Intelligence"</span>,
+    <span class="code-green">"Building useful things"</span>
+  ]
+  <span class="code-purple">def</span> <span class="code-yellow">keep_learning</span>(self):
+    <span class="code-purple">return</span> <span class="code-green">"Always curious."</span></code></pre>
+          </div>
+          <div class="visual-caption"><span class="caption-line"></span> LEARNING BY BUILDING <span class="caption-line"></span></div>
+        </div>
+        <div class="hero-index">01 <span>—</span> INTRODUCTION</div>
+      </section>
+
+      <section class="section about-section" id="about">
+        <div class="section-heading">
+          <div><p class="section-index">01 / THE STORY</p><h2><span class="heading-symbol">✳</span> About Me</h2></div>
+          <p class="section-summary">Curiosity is where every project begins.</p>
+        </div>
+        <div class="about-grid">
+          <div class="about-aside">
+            <div class="quote-mark">“</div>
+            <p>จากความสงสัย<br>สู่การลงมือทำ</p>
+            <span class="mono-label">MY STARTING POINT</span>
+          </div>
+          <div class="about-content">
+            <p>ความสนใจด้านคอมพิวเตอร์ของผมเริ่มจากการได้เห็นการทำงานของคุณพ่อ ซึ่งทำงานเป็นวิศวกรที่บริษัท RICOH (ประเทศไทย) จำกัด ผมได้เห็นการใช้คอมพิวเตอร์และซอฟต์แวร์ในการทำงาน จึงเกิดความสงสัยว่าโปรแกรมเหล่านี้ถูกสร้างขึ้นมาได้อย่างไร</p>
+            <p>จากความสงสัยนั้น ผมเริ่มเรียนรู้การเขียนโปรแกรมและทดลองทำโปรเจกต์ด้วยตัวเอง ทั้งการพัฒนาเว็บไซต์และการสร้างเกมด้วย Unity ระหว่างทางผมได้เรียนรู้ว่าการเขียนโปรแกรมไม่ได้มีแค่การทำให้โค้ดทำงาน แต่ยังต้องอาศัยการคิดอย่างเป็นระบบ การแก้ปัญหา และการทดลองปรับปรุงอยู่เสมอ</p>
+            <p>ผมจึงอยากศึกษาต่อด้านวิทยาการคอมพิวเตอร์ เพื่อพัฒนาพื้นฐานให้แน่นขึ้น และนำความรู้ไปสร้างเทคโนโลยีที่มีประโยชน์ต่อผู้คน</p>
+            <div class="about-foot"><span class="tiny-square"></span><span>CURIOUS BY NATURE · LEARNING BY DOING</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section skills-section" id="skills">
+        <div class="section-heading">
+          <div><p class="section-index">02 / TOOLKIT</p><h2><span class="heading-symbol">⌘</span> Technical Stack</h2></div>
+          <p class="section-summary">Tools I have explored and continue to develop.</p>
+        </div>
+        <div class="skills-grid">
+          <article class="skill-panel">
+            <div class="skill-panel-head"><span class="skill-icon blue">⌘</span><div><h3>Programming</h3><p>Logic & problem solving</p></div><span class="panel-number">01</span></div>
+            <div class="tags"><span>Python</span><span>C</span><span>C++</span></div>
+          </article>
+          <article class="skill-panel">
+            <div class="skill-panel-head"><span class="skill-icon cyan">〈〉</span><div><h3>Web Development</h3><p>Building for the web</p></div><span class="panel-number">02</span></div>
+            <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+          </article>
+          <article class="skill-panel">
+            <div class="skill-panel-head"><span class="skill-icon orange">◈</span><div><h3>Game Development</h3><p>Interactive experiences</p></div><span class="panel-number">03</span></div>
+            <div class="tags"><span>Unity</span><span>2D Game</span></div>
+          </article>
+          <article class="skill-panel">
+            <div class="skill-panel-head"><span class="skill-icon green">⌁</span><div><h3>Tools & Interests</h3><p>Workflow and exploration</p></div><span class="panel-number">04</span></div>
+            <div class="tags"><span>GitHub</span><span>Artificial Intelligence</span></div>
+          </article>
+        </div>
+        <p class="note"><span>i</span> รายการนี้แสดงเทคโนโลยีที่เคยเรียนรู้หรือทดลองใช้ ไม่ใช่ระดับความเชี่ยวชาญ</p>
+      </section>
+
+      <section class="section projects-section" id="projects">
+        <div class="section-heading">
+          <div><p class="section-index">03 / SELECTED WORK</p><h2><span class="heading-symbol">▧</span> Featured Projects</h2></div>
+          <p class="section-summary">Learning through making, testing, and improving.</p>
+        </div>
+        <div class="projects-list">
+          <article class="project-card">
+            <div class="project-image unity-image">
+              <div class="image-toolbar"><span><i></i><i></i><i></i></span><span>UNITY EDITOR / PREVIEW</span><span>↗</span></div>
+              <div class="unity-scene">
+                <div class="scene-sun"></div><div class="scene-horizon"></div>
+                <div class="scene-building b1"></div><div class="scene-building b2"></div><div class="scene-building b3"></div>
+                <div class="scene-ground"></div><div class="scene-character"></div>
+                <span class="scene-label">GAME SCENE_01</span>
+              </div>
+            </div>
+            <div class="project-info">
+              <div class="project-meta"><span>PROJECT / 001</span><span class="project-type">GAME DEVELOPMENT</span></div>
+              <h3>Unity Game Development</h3>
+              <p>ทดลองสร้างเกมด้วย Unity ตั้งแต่การจัดวางฉาก การนำเข้า Assets ไปจนถึงการเขียนสคริปต์และปรับประสบการณ์การเล่น</p>
+              <div class="tags"><span>Unity</span><span>C#</span><span>Game Design</span></div>
+              <button class="text-link project-details" data-project="unity">View project details <span>↗</span></button>
+            </div>
+          </article>
+          <article class="project-card reverse">
+            <div class="project-image code-image">
+              <div class="code-window">
+                <div class="code-window-head"><span class="window-dots"><i></i><i></i><i></i></span><span>portfolio / index.html</span></div>
+                <div class="code-editor">
+                  <div class="line-numbers">01<br>02<br>03<br>04<br>05<br>06<br>07<br>08<br>09<br>10<br>11</div>
+                  <pre><code><span class="code-purple">&lt;section</span> <span class="code-cyan">class</span>=<span class="code-green">"hero"</span><span class="code-purple">&gt;</span>
+  <span class="code-purple">&lt;h1&gt;</span>
+    Hello, world.
+  <span class="code-purple">&lt;/h1&gt;</span>
+  <span class="code-purple">&lt;p&gt;</span>
+    Ideas into interfaces.
+  <span class="code-purple">&lt;/p&gt;</span>
+  <span class="code-purple">&lt;a</span> <span class="code-cyan">href</span>=<span class="code-green">"#projects"</span><span class="code-purple">&gt;</span>
+    Explore projects
+  <span class="code-purple">&lt;/a&gt;</span>
+<span class="code-purple">&lt;/section&gt;</span></code></pre>
+                </div>
+              </div>
+            </div>
+            <div class="project-info">
+              <div class="project-meta"><span>PROJECT / 002</span><span class="project-type">WEB DEVELOPMENT</span></div>
+              <h3>Personal Portfolio Website</h3>
+              <p>ออกแบบเว็บไซต์เพื่อรวบรวมผลงานและประสบการณ์ โดยให้ความสำคัญกับโครงสร้างข้อมูล การอ่านง่าย และการใช้งานบนหลายขนาดหน้าจอ</p>
+              <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+              <button class="text-link project-details" data-project="web">View project details <span>↗</span></button>
+            </div>
+          </article>
+        </div>
+        <p class="note"><span>i</span> ภาพประกอบด้านบนเป็นภาพจำลองเพื่อแสดงรูปแบบการจัดวาง ควรเปลี่ยนเป็นภาพหน้าจอจากผลงานจริงก่อนนำไปยื่นสมัคร</p>
+      </section>
+
+      <section class="section activities-section" id="activities">
+        <div class="section-heading">
+          <div><p class="section-index">04 / EXPERIENCE</p><h2><span class="heading-symbol">⌁</span> Activities & Camps</h2></div>
+          <p class="section-summary">Experiences that expanded my perspective.</p>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item">
+            <div class="timeline-marker cyan-dot"></div><div class="timeline-date">2026 <span>· CAMP</span></div>
+            <div class="timeline-body"><div class="timeline-title"><h3>CS YOU CAMP 2026</h3><span class="event-label">COMPUTER SCIENCE</span></div><p>เรียนรู้พื้นฐานการพัฒนาเว็บไซต์ด้วย HTML, CSS และ JavaScript รวมถึงการใช้ GitHub เพื่อจัดเก็บและจัดการโค้ด</p><div class="tags"><span>Web Development</span><span>GitHub</span></div><small>ผู้จัด: ภาควิชาวิทยาการคอมพิวเตอร์ มหาวิทยาลัยเกษตรศาสตร์</small></div>
+          </article>
+          <article class="timeline-item">
+            <div class="timeline-marker blue-dot"></div><div class="timeline-date">2026 <span>· WORKSHOP</span></div>
+            <div class="timeline-body"><div class="timeline-title"><h3>K-Engineering World Tour 2026</h3><span class="event-label">EDGE AI</span></div><p>เข้าร่วมกิจกรรมเชิงปฏิบัติการเกี่ยวกับ Edge AI และการประยุกต์ใช้ปัญญาประดิษฐ์บนอุปกรณ์ฮาร์ดแวร์</p><div class="tags"><span>Edge AI</span><span>Embedded Systems</span></div><small>เพิ่มรายละเอียดกิจกรรมย่อยและวันที่ตามใบประกาศหรือหลักฐานจริง</small></div>
+          </article>
+          <article class="timeline-item">
+            <div class="timeline-marker orange-dot"></div><div class="timeline-date">2026 <span>· CAMP</span></div>
+            <div class="timeline-body"><div class="timeline-title"><h3>DDCT Innovative Camp 2026</h3><span class="event-label">TRACK: PROGRAMMING</span></div><p>เพิ่มรายละเอียดกิจกรรม สิ่งที่ได้ลงมือทำ และทักษะที่ได้เรียนรู้จากค่ายนี้</p><div class="tags"><span>Programming</span><span>Problem Solving</span></div><small>ตรวจสอบชื่อกิจกรรมและหน่วยงานผู้จัดก่อนเผยแพร่</small></div>
+          </article>
+          <article class="timeline-item">
+            <div class="timeline-marker purple-dot"></div><div class="timeline-date">YEAR <span>· CAMP</span></div>
+            <div class="timeline-body"><div class="timeline-title"><h3>It All About CoE</h3><span class="event-label">COMPUTER ENGINEERING</span></div><p>เพิ่มคำอธิบายเกี่ยวกับเนื้อหาที่ได้เรียนรู้และประสบการณ์จากกิจกรรม</p><div class="tags"><span>Engineering</span><span>Technology</span></div><small>กรอกปี ผู้จัด และรายละเอียดที่ถูกต้อง</small></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section education-section" id="education">
+        <div class="section-heading">
+          <div><p class="section-index">05 / BACKGROUND</p><h2><span class="heading-symbol">▤</span> Academic Record</h2></div>
+          <p class="section-summary">The foundation behind the next step.</p>
+        </div>
+        <div class="education-panel">
+          <div class="edu-top"><span class="edu-icon">⌂</span><span class="mono-label">EDUCATION / CURRENT</span><span class="edu-status">M.6 STUDENT</span></div>
+          <h3>[ชื่อโรงเรียนของคุณ]</h3>
+          <p>มัธยมศึกษาตอนปลาย · แผนการเรียน [ระบุแผนการเรียน]</p>
+          <div class="edu-details">
+            <div><span class="detail-label">ACADEMIC PERIOD</span><strong>[ปีที่เริ่มเรียน – ปีที่จบ]</strong></div>
+            <div><span class="detail-label">GPA</span><strong>[ระบุ GPAX]</strong></div>
+          </div>
+          <div class="edu-foot">แก้ไขข้อมูลในไฟล์ <code>index.html</code> ก่อนเผยแพร่เว็บไซต์</div>
+        </div>
+      </section>
+
+      <section class="section contact-section" id="contact">
+        <div class="section-heading">
+          <div><p class="section-index">06 / SAY HELLO</p><h2><span class="heading-symbol">↗</span> Direct Contact</h2></div>
+          <p class="section-summary">Open to learning, collaboration, and new ideas.</p>
+        </div>
+        <p class="contact-intro">อยากพูดคุยเกี่ยวกับโปรเจกต์หรือการเรียนรู้ด้านเทคโนโลยี สามารถเพิ่มช่องทางติดต่อจริงของผมไว้ด้านล่าง</p>
+        <div class="contact-list">
+          <a class="contact-row placeholder-link" href="#contact" data-placeholder="github"><span class="contact-icon">⌘</span><span><small>GITHUB</small><strong>เพิ่มลิงก์ GitHub ของคุณ</strong></span><span class="contact-arrow">↗</span></a>
+          <a class="contact-row placeholder-link" href="#contact" data-placeholder="email"><span class="contact-icon">@</span><span><small>EMAIL</small><strong>เพิ่มอีเมลที่ต้องการใช้ติดต่อ</strong></span><span class="contact-arrow">↗</span></a>
+          <a class="contact-row placeholder-link" href="#contact" data-placeholder="linkedin"><span class="contact-icon">in</span><span><small>LINKEDIN</small><strong>เพิ่มลิงก์ LinkedIn (ถ้ามี)</strong></span><span class="contact-arrow">↗</span></a>
+        </div>
+        <div class="closing-line"><span class="status-dot"></span> THANK YOU FOR VISITING <span class="closing-rule"></span><span class="mono-label">BUILT WITH CURIOSITY.</span></div>
+      </section>
+    </main>
+
+    <footer class="footer"><a class="brand footer-brand" href="#home"><span class="brand-mark">&lt;/&gt;</span><span><strong>Lunchakorn W.</strong><small>PERSONAL PORTFOLIO</small></span></a><span>Designed for learning & making.</span><a href="#home" class="back-top">BACK TO TOP ↑</a></footer>
+  </div>
+
+  <nav class="mobile-nav" aria-label="Mobile navigation">
+    <a href="#home"><span>⌂</span>Home</a><a href="#about"><span>◎</span>About</a><a href="#projects"><span>▧</span>Projects</a><a href="#activities"><span>⌁</span>Activities</a><a href="#contact"><span>↗</span>Contact</a>
+  </nav>
+
+  <dialog id="projectDialog" class="project-dialog">
+    <button class="dialog-close" id="dialogClose" aria-label="ปิดรายละเอียด">×</button>
+    <p class="section-index" id="dialogIndex">PROJECT DETAILS</p>
+    <h2 id="dialogTitle">Project title</h2>
+    <p id="dialogDescription"></p>
+    <div class="dialog-detail"><span>TECHNOLOGIES</span><p id="dialogTech"></p></div>
+    <div class="dialog-detail"><span>WHAT I LEARNED</span><p id="dialogLearning">เพิ่มสิ่งที่ได้เรียนรู้จากการทำโปรเจกต์จริง</p></div>
+    <p class="dialog-hint">แก้ไขข้อความและเพิ่มภาพผลงานจริงได้ในไฟล์ index.html</p>
+  </dialog>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
